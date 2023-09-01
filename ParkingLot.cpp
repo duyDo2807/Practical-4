@@ -30,7 +30,6 @@ void ParkingLot::unparkVehicle(int id) {
       }
 
       currentCount--;
-      std::cout << "Vehicle " << id << " has been unparked" << std::endl;
       return;
     }
   }
