@@ -25,7 +25,10 @@ int main() {
     } else if (vehicle == "motorbike") {
       newVehicle = new Motorbike(parkingLot.getCount() + 1);
     } else {
-      newVehicle = nullptr;
+      std::cout
+          << "Invalid vehicle type. Please enter 'car', 'bus', or 'motorbike'."
+          << std::endl;
+      continue;
     }
 
     parkingLot.parkVehicle(newVehicle);
