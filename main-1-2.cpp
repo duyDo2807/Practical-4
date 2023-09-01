@@ -26,13 +26,13 @@ int main() {
     } else if (vehicle.empty()) {
       newVehicle = nullptr;
     } else {
-      std::cout << "Invalid vehicle type." << std::endl;
+      std::cout << "Invalid vehicle type" << std::endl;
       continue;
     }
 
     parkingLot.parkVehicle(newVehicle);
     if (newVehicle != nullptr) {
-      std::cout << "Vehicle " << newVehicle->getType() << " has been parked."
+      std::cout << "Vehicle " << newVehicle->getType() << " has been parked"
                 << std::endl;
     } else {
       std::cout << "No vehicle has been parked for ID: "
