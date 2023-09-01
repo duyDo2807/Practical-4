@@ -39,6 +39,10 @@ int main() {
     count++;
   }
 
+  if (count == 10) {
+    std::cout << "The lot is full" << std::endl;
+  }
+
   int IDunpark;
   std::cout << "Enter ID vehicle to unpark:";
   std::cin >> IDunpark;
